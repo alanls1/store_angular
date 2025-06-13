@@ -3,5 +3,11 @@
     width: 90%;
     margin-inline: auto;
     padding-top: 4rem;
+
+    .container-content-hero {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+    }
   }
 }
