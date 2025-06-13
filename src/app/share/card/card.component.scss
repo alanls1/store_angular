@@ -1,0 +1,40 @@
+:host {
+  .card {
+    width: 224px;
+    height: 386.66px;
+    position: relative;
+
+    .tag {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background-color: black;
+      width: 51px;
+      height: 24px;
+      color: #fff;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &,
+    .description,
+    .tag {
+      display: flex;
+    }
+
+    &,
+    .description {
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    img {
+      width: 224px;
+      height: 298.66px;
+      object-fit: fill;
+    }
+
+    .description {
+    }
+  }
+}
