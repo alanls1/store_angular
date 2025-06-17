@@ -26,23 +26,6 @@
 
       .buttons-hero {
         gap: 1rem;
-        .btn {
-          width: 185px;
-          height: 50px;
-          outline: none;
-          border: 1px solid #fff;
-          font-weight: bold;
-          color: #fff;
-          cursor: pointer;
-        }
-
-        .primary-btn-hero {
-          background-color: #fff;
-          color: #000;
-        }
-        .secondary-btn-hero {
-          background-color: transparent;
-        }
       }
     }
   }
