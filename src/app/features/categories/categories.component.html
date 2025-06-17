@@ -1,0 +1,13 @@
+<section class="container">
+  <h4>Nossas Categorias</h4>
+
+  <div class="cards">
+    @for (item of cards; track item.title) {
+    <div [class]="'card card-' + item.class">
+      <h5>{{ item.title }}</h5>
+      <p>{{ item.p }}</p>
+      <app-button [type]="'primary'">{{ item.button }}</app-button>
+    </div>
+    }
+  </div>
+</section>
