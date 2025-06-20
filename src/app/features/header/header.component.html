@@ -3,8 +3,16 @@
     <h1>Moda Luxo</h1>
     <ul>
       <li>Inicio</li>
-      <li>Roupas</li>
-      <li>Joias</li>
+      <li class="menu">
+        Categorias <i class="fa-solid fa-chevron-down"></i>
+        <ul class="drop-down">
+          @for (category of categories; track $index) {
+          <li>{{ category.name }}</li>
+          } @empty {
+          <li>...carregando</li>
+          }
+        </ul>
+      </li>
       <li>Novidades</li>
       <li>Ofertas</li>
     </ul>
